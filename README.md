@@ -1,3 +1,5 @@
+Forked from: 手写AI: hard_decode_trt
+
 操作系统：ubuntu2204
 1. 安装bazel(7.0)
 到[链接](https://mirrors.huaweicloud.com/bazel/7.0.0/)下载bazel可执行文件bazel-7.0.0-linux-x86_64
