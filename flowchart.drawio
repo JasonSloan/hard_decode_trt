@@ -1,0 +1,756 @@
+<mxfile host="Electron" modified="2025-08-31T11:22:46.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Qz3Ww-Tdd3oSx58UH8Lp" version="24.2.5" type="device" pages="9">
+  <diagram name="main" id="pFBPIchY7WpRGbeu19uF">
+    <mxGraphModel dx="1649" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D5H6x285IwnFc85ez7hA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uyQurLltSRk1hhd6AJUe-2" target="D5H6x285IwnFc85ez7hA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="创建解复用器" link="data:page/id,C9WRojh6mLfYs_iAj90V" id="uyQurLltSRk1hhd6AJUe-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="60" y="220" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D5H6x285IwnFc85ez7hA-3" target="uaZozuwoUbxwSp0TYcJR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="创建解码器" link="data:page/id,9_pI62L7E1879GLhyf0F" id="D5H6x285IwnFc85ez7hA-3">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="60" y="360" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SCT8R65BuxxzwUHNQ6Ts-1" value="drawio用法：&lt;div&gt;alt+shift+t给一个连接单元添加注释&lt;br&gt;右键编辑链接添加链接&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-20" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uaZozuwoUbxwSp0TYcJR-1" target="uaZozuwoUbxwSp0TYcJR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-1" value="获取视频流中的额外数据，用于初始化解码器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uaZozuwoUbxwSp0TYcJR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-3" value="解码" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uaZozuwoUbxwSp0TYcJR-7" target="uaZozuwoUbxwSp0TYcJR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uaZozuwoUbxwSp0TYcJR-9">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uaZozuwoUbxwSp0TYcJR-7" target="uaZozuwoUbxwSp0TYcJR-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="271" y="820" />
+              <mxPoint x="271" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uaZozuwoUbxwSp0TYcJR-18">
+          <mxGeometry x="-0.879" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-7" value="解码出的&lt;div&gt;数据大小大于0?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="780" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uaZozuwoUbxwSp0TYcJR-8" target="uaZozuwoUbxwSp0TYcJR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="解复用" link="data:page/id,1gLT3r_E3mjOgqr89KTl" id="uaZozuwoUbxwSp0TYcJR-8">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="60" y="950" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uaZozuwoUbxwSp0TYcJR-10" target="uaZozuwoUbxwSp0TYcJR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uaZozuwoUbxwSp0TYcJR-10" target="uaZozuwoUbxwSp0TYcJR-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-39" y="1120" />
+              <mxPoint x="-39" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="解码" link="data:page/id,cVZ9z0DYpeo-TlxgkN7s" id="uaZozuwoUbxwSp0TYcJR-10">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="60" y="1090" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uaZozuwoUbxwSp0TYcJR-13" target="uyQurLltSRk1hhd6AJUe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-13" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uaZozuwoUbxwSp0TYcJR-15" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C9WRojh6mLfYs_iAj90V" name="创建解复用器">
+    <mxGraphModel dx="822" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A-62m_iRl037o2GTSAJ5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yEbI3ZZPfSR6sMyjygrp-1" target="A-62m_iRl037o2GTSAJ5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="创建上下文管理器" link="data:page/id,iWT6pnlh_4CMWqzX9LQe" id="yEbI3ZZPfSR6sMyjygrp-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="170" y="220" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="A-62m_iRl037o2GTSAJ5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-62m_iRl037o2GTSAJ5-1" target="A-62m_iRl037o2GTSAJ5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="解析流信息" tooltip="获取：&#xa;流的基本信息：流的数量(视频流、音频流、字幕流等), 每个流的编解码器类型（如H.264、HEVC等），流的索引号（用于后续操作）&#xa;编解码参数：视频分辨率（width/height）, 像素格式（如YUV420P、NV12等）, 帧率（avg_frame_rate）, 时间基（time_base）, 比特率, 关键帧间隔等&#xa;元数据(Metadata)：视频时长, 创建时间, 作者信息等&#xa;其他重要数据：流的起始时间, 流的持续时间, 是否需要解析（need_parsing）" id="A-62m_iRl037o2GTSAJ5-1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="170" y="330" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="A-62m_iRl037o2GTSAJ5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-62m_iRl037o2GTSAJ5-3" target="A-62m_iRl037o2GTSAJ5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-62m_iRl037o2GTSAJ5-3" value="获取视频流在整个流中的序号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wobZ1ehsnn-J2NUP_qGE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A-62m_iRl037o2GTSAJ5-5" target="wobZ1ehsnn-J2NUP_qGE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-62m_iRl037o2GTSAJ5-5" value="获取视频流在整个流中的序号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wobZ1ehsnn-J2NUP_qGE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wobZ1ehsnn-J2NUP_qGE-1" target="wobZ1ehsnn-J2NUP_qGE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wobZ1ehsnn-J2NUP_qGE-1" value="获取编解码器类型、宽高、像素格式、时间基、帧率、总帧数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wobZ1ehsnn-J2NUP_qGE-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wobZ1ehsnn-J2NUP_qGE-3" target="wobZ1ehsnn-J2NUP_qGE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="根据像素格式获取像素位深，色度分量的高度" tooltip="表示每个像素的每个颜色分量（如 Y、U、V）的位深度是 8 位，常见于普通的 8bit YUV 或 RGB 图像。&#xa;也就是常见的每个像素的像素值为0-255, 如果设置更高的位深, 可以支持更丰富的颜色和更高的图像质量&#xa;&#xa;计算色度分量（如 U、V 分量）的高度。&#xa;对于 YUV 4:2:0 格式，色度分量的高度是亮度分量高度的一半。&#xa;&#xa;YUV图像格式解释以及与RGB之间的转换参考:&#xa;https://github.com/byhook/ffmpeg4android/blob/master/readme/%E5%9B%BE%E8%A7%A3YU12%E3%80%81I420%E3%80%81YV12%E3%80%81NV12%E3%80%81NV21%E3%80%81YUV420P%E3%80%81YUV420SP%E3%80%81YUV422P%E3%80%81YUV444P%E7%9A%84%E5%8C%BA%E5%88%AB.md&#xa;           " id="wobZ1ehsnn-J2NUP_qGE-3">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wobZ1ehsnn-J2NUP_qGE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wobZ1ehsnn-J2NUP_qGE-5" target="wobZ1ehsnn-J2NUP_qGE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wobZ1ehsnn-J2NUP_qGE-5" value="判断是H264、H265还是MJPEG编码格式" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="创建比特流过滤器以及比特流过滤器上下文管理器" tooltip="比特流过滤器是 FFmpeg 库中的组件，在压缩数据层面工作，无需完整编解码，可进行格式转换、数据修复和参数调整等操作。" id="wobZ1ehsnn-J2NUP_qGE-7">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="170" y="1080" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iWT6pnlh_4CMWqzX9LQe" name="创建上下文管理器">
+    <mxGraphModel dx="865" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YzTAbWoSIhNrZf4yatOk-1" target="YzTAbWoSIhNrZf4yatOk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-4" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YzTAbWoSIhNrZf4yatOk-3">
+          <mxGeometry x="-0.0778" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YzTAbWoSIhNrZf4yatOk-1" target="YzTAbWoSIhNrZf4yatOk-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="420" />
+              <mxPoint x="310" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YzTAbWoSIhNrZf4yatOk-14">
+          <mxGeometry x="-0.9426" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-1" value="是否是&lt;br&gt;rtsp视频流" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YzTAbWoSIhNrZf4yatOk-2" target="YzTAbWoSIhNrZf4yatOk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-2" value="设置强制使用tcp传输" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YzTAbWoSIhNrZf4yatOk-5" target="YzTAbWoSIhNrZf4yatOk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="设置buffer_size大小" tooltip="当程序通过 RTSP 协议从网络获取视频流时，数据会以数据包的形式传输。由于网络状况不稳定，数据的传输速率可能会有波动，数据包到达的时间也可能不一致。为了确保解码过程能够持续、稳定地进行，需要一个缓冲区来临时存储接收到的数据。这个缓冲区就像一个“蓄水池”，可以在数据到达较快时暂存数据，在数据到达较慢时为解码过程提供持续的数据供应。" id="YzTAbWoSIhNrZf4yatOk-5">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="50" y="600" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YzTAbWoSIhNrZf4yatOk-7" target="YzTAbWoSIhNrZf4yatOk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="设置超时时间" id="YzTAbWoSIhNrZf4yatOk-7">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="50" y="710" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YzTAbWoSIhNrZf4yatOk-9" target="YzTAbWoSIhNrZf4yatOk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="设置最大延时" id="YzTAbWoSIhNrZf4yatOk-9">
+          <mxCell style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="50" y="810" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="YzTAbWoSIhNrZf4yatOk-11" value="创建上下文管理器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9_pI62L7E1879GLhyf0F" name="创建解码器">
+    <mxGraphModel dx="822" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e9pMTBL-2lO9SiCeOX2_-1" target="e9pMTBL-2lO9SiCeOX2_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-1" value="设置视频编解码类型、最大视频宽度、最大视频高度、最大缓存帧数等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e9pMTBL-2lO9SiCeOX2_-2" target="e9pMTBL-2lO9SiCeOX2_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-2" value="设置设备id、裁剪区域、改变尺寸大小" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e9pMTBL-2lO9SiCeOX2_-4" target="e9pMTBL-2lO9SiCeOX2_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-4" value="创建cuda上下文" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e9pMTBL-2lO9SiCeOX2_-6" target="e9pMTBL-2lO9SiCeOX2_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-6" value="创建cuda上下文锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e9pMTBL-2lO9SiCeOX2_-8" target="e9pMTBL-2lO9SiCeOX2_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-8" value="创建cuda流" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e9pMTBL-2lO9SiCeOX2_-10" target="e9pMTBL-2lO9SiCeOX2_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-10" value="定义cuda视频解析器参数结构体" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e9pMTBL-2lO9SiCeOX2_-12" target="e9pMTBL-2lO9SiCeOX2_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-12" value="为该结构体设置视频解码类型、最大解码表面数量、时钟频率、以及三个回调函数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1020" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9pMTBL-2lO9SiCeOX2_-14" value="创建cuda视频解析器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1gLT3r_E3mjOgqr89KTl" name="解复用">
+    <mxGraphModel dx="967" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-1" target="FjtpGQOJRs4di1i9cnaA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-1" value="初始化数据指针ppVideo为空指针、初始化数据大小pnVideoBytes为0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-2" value="如果m_pkt存在有效数据（前一次解复用的数据）， 释放该有效数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-9" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjtpGQOJRs4di1i9cnaA-8">
+          <mxGeometry x="-0.1556" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="520" />
+              <mxPoint x="350" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjtpGQOJRs4di1i9cnaA-11">
+          <mxGeometry x="-0.2218" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="解析一帧成功且&lt;span style=&quot;background-color: initial;&quot;&gt;解析的&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;不是视频流的数据包？&lt;/span&gt;&lt;/div&gt;" tooltip="进入循环有以下一种情况：&#xa;1.读取成功，但读取的不是视频流的数据包&#xa;&#xa;退出循环有以下两种情况:&#xa;1. 读取成功，并且是视频流的数据包&#xa;2. 读取失败&#xa;" id="FjtpGQOJRs4di1i9cnaA-6">
+          <mxCell style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="125" y="480" width="190" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-17" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjtpGQOJRs4di1i9cnaA-16">
+          <mxGeometry x="-0.1111" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-14" target="FjtpGQOJRs4di1i9cnaA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-14" value="解析失败？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-18" target="FjtpGQOJRs4di1i9cnaA-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-18" value="如果m_pktFiltered存在有效数据（前一次解复用的数据）， 释放该有效数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="952" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-21" target="FjtpGQOJRs4di1i9cnaA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-21" value="将m_pkt发送到比特流过滤器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1092" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-23" target="FjtpGQOJRs4di1i9cnaA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-23" value="从比特流过滤器接受过滤后的数据给m_pktFiltered" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-25" target="FjtpGQOJRs4di1i9cnaA-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-25" value="将m_pktFiltered的数据指针赋值给ppVideo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1372" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-27" target="FjtpGQOJRs4di1i9cnaA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-27" value="将m_pktFiltered的数据大小赋值给pnVideoBytes" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-29" target="FjtpGQOJRs4di1i9cnaA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjtpGQOJRs4di1i9cnaA-32">
+          <mxGeometry x="-0.1577" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-29" target="FjtpGQOJRs4di1i9cnaA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-29" value="是否是H264&lt;span style=&quot;background-color: initial;&quot;&gt;或&lt;br&gt;H265编码格式的？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="810" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-31" value="略" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-35" target="FjtpGQOJRs4di1i9cnaA-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-35" value="将时间戳赋值给pts" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1787" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-37" target="FjtpGQOJRs4di1i9cnaA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-37" value="计算本地时间戳" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1512" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-41" target="FjtpGQOJRs4di1i9cnaA-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-46" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjtpGQOJRs4di1i9cnaA-43">
+          <mxGeometry x="-0.1876" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-41" target="FjtpGQOJRs4di1i9cnaA-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-50" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FjtpGQOJRs4di1i9cnaA-49">
+          <mxGeometry x="-0.0494" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-41" value="自动重启？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjtpGQOJRs4di1i9cnaA-42" target="FjtpGQOJRs4di1i9cnaA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="621" y="690" />
+              <mxPoint x="621" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-42" value="重新打开解复用器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-48" value="返回false" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FjtpGQOJRs4di1i9cnaA-51" value="返回true" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1927" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cVZ9z0DYpeo-TlxgkN7s" name="解码">
+    <mxGraphModel dx="822" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQ0rggsI_tDkzvDoxhBL-1" target="UQ0rggsI_tDkzvDoxhBL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-1" value="重置已解码帧数m_nDecodedFrame为0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQ0rggsI_tDkzvDoxhBL-2" target="UQ0rggsI_tDkzvDoxhBL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-2" value="重置已返回的解码帧数m_nDecodedFrameReturned为0" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQ0rggsI_tDkzvDoxhBL-4" target="UQ0rggsI_tDkzvDoxhBL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-4" value="定义一个cuda视频源数据包结构体" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQ0rggsI_tDkzvDoxhBL-6" target="UQ0rggsI_tDkzvDoxhBL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-6" value="将解复用出来的数据指针、解复用得到的数据大小、解复用得到的时间戳赋值给结构体" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="584.5" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aw0AXUsTESARXM2kF9uX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQ0rggsI_tDkzvDoxhBL-8" target="Aw0AXUsTESARXM2kF9uX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="使用视频解析器解码&lt;br&gt;（视频解析器会调用创建解码器时传给他的三个回调函数）" link="data:page/id,7lGwAelbDKDtgaONoK1q" id="UQ0rggsI_tDkzvDoxhBL-8">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="280" y="724.5" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="I8UkMmB7wlyU3C55JbbK-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UQ0rggsI_tDkzvDoxhBL-10" target="I8UkMmB7wlyU3C55JbbK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UQ0rggsI_tDkzvDoxhBL-10" value="解码帧计数总数数加1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1301" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I8UkMmB7wlyU3C55JbbK-1" value="返回m_nDecodedFrame" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1411" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUpDK7_kqtykrrnR8cV4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aw0AXUsTESARXM2kF9uX-1" target="TUpDK7_kqtykrrnR8cV4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="回调函数1：查询当前gpu解码能力（此回调只有在初始序列头或视频格式更改才会调用）" link="data:page/id,7lGwAelbDKDtgaONoK1q" id="Aw0AXUsTESARXM2kF9uX-1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="280" y="820" width="120" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="TUpDK7_kqtykrrnR8cV4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUpDK7_kqtykrrnR8cV4-1" target="TUpDK7_kqtykrrnR8cV4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUpDK7_kqtykrrnR8cV4-1" value="回调函数1：查询当前gpu解码能力" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TUpDK7_kqtykrrnR8cV4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TUpDK7_kqtykrrnR8cV4-3" target="UQ0rggsI_tDkzvDoxhBL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="回调函数2：触发实际解码操作" link="data:page/id,Rb--UieyD6U9LpHT93mU" id="TUpDK7_kqtykrrnR8cV4-3">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="280" y="1090" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="回调函数3：对解码数据进行处理" link="data:page/id,Rb--UieyD6U9LpHT93mU" id="umKjK6dlVWgYn0sA3FRi-1">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="280" y="1200" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7lGwAelbDKDtgaONoK1q" name="回调函数1：查询当前gpu解码能力">
+    <mxGraphModel dx="822" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-1" target="IZ925M_ZUlg4-UQzBYJ2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-1" value="获得解码表面数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-2" target="IZ925M_ZUlg4-UQzBYJ2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-2" value="初始化gpu解码能力结构体decodecap" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-4" value="将视频编码类型、色度格式、视频亮度位深复制给decodecap" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="680" as="sourcePoint" />
+            <mxPoint x="300" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-9">
+          <mxGeometry x="0.3044" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-10" target="IZ925M_ZUlg4-UQzBYJ2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-14" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-13">
+          <mxGeometry x="-0.1228" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-10" value="查询gpu解码能力&lt;div&gt;（是否支持）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="620" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-12" value="略" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-15" target="IZ925M_ZUlg4-UQzBYJ2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-18" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-17">
+          <mxGeometry x="-0.1014" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-20">
+          <mxGeometry x="0.02" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-15" value="查询当前视频的&lt;div&gt;编码宽度或者编码高度&lt;/div&gt;&lt;div&gt;是否超过gpu最大支持&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="760" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-16" value="略" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-22" target="IZ925M_ZUlg4-UQzBYJ2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-24">
+          <mxGeometry x="-0.1362" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-22" target="IZ925M_ZUlg4-UQzBYJ2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-27">
+          <mxGeometry x="-0.08" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-22" value="查询当前视频的&lt;div&gt;宏块数量&lt;/div&gt;&lt;div&gt;是否超过gpu最大支持&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="960" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-23" value="略" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-26" target="IZ925M_ZUlg4-UQzBYJ2-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-26" value="获取输出表面格式" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-28" target="IZ925M_ZUlg4-UQzBYJ2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-32" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-31">
+          <mxGeometry x="-0.171" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-28" target="IZ925M_ZUlg4-UQzBYJ2-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-35" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-34">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-28" value="查询当前视频的&lt;div&gt;解码输出表面格式&lt;/div&gt;&lt;div&gt;是否被当前gpu支持&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1260" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-30" value="略" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-33" target="IZ925M_ZUlg4-UQzBYJ2-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-33" value="初始化videoDecodeCreateInfo结构体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-37" target="IZ925M_ZUlg4-UQzBYJ2-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-37" value="设置视频编码类型、色度格式、输出表面格式、位深、最大输出表面数量、最大解码表面数量、上下文锁、编码宽度、编码高度、最大视频宽度、最大视频高度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1600" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-41" target="IZ925M_ZUlg4-UQzBYJ2-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-41" target="IZ925M_ZUlg4-UQzBYJ2-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-47" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZ925M_ZUlg4-UQzBYJ2-46">
+          <mxGeometry x="-0.0606" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-41" value="是否有&lt;span style=&quot;background-color: initial;&quot;&gt;裁剪需求或&lt;/span&gt;&lt;div&gt;调整尺寸需求？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1790" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-43" target="IZ925M_ZUlg4-UQzBYJ2-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-43" value="设置输出表面的宽度和高度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-45" value="略" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1792.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-48" target="IZ925M_ZUlg4-UQzBYJ2-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-48" value="计算色度部分的高度、色度平面数量、映射表面高度和宽度等" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZ925M_ZUlg4-UQzBYJ2-50" target="IZ925M_ZUlg4-UQzBYJ2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-50" value="创建cuda视频解码器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZ925M_ZUlg4-UQzBYJ2-52" value="返回解码表面数量" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2330" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Rb--UieyD6U9LpHT93mU" name="回调函数2：触发实际解码操作">
+    <mxGraphModel dx="822" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OFh6Nmy9nmC1lEockoDB-1" value="使用cuda视频解码器解码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bM6u6UZgsPbZlDI-BFkf" name="回调函数3：对解码数据进行处理">
+    <mxGraphModel dx="822" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rF8hqc-gvaHFeQEZxFA9-1" target="rF8hqc-gvaHFeQEZxFA9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-1" value="初始化videoProcessingParameters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rF8hqc-gvaHFeQEZxFA9-2" target="rF8hqc-gvaHFeQEZxFA9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-2" value="将是否是逐行帧、是否顶场优先等赋值给videoProcessingParameters" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="340" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rF8hqc-gvaHFeQEZxFA9-4" target="rF8hqc-gvaHFeQEZxFA9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-4" value="定义一个解码表面设备指针dpSrcFrame" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rF8hqc-gvaHFeQEZxFA9-6" target="rF8hqc-gvaHFeQEZxFA9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-6" value="将解码数据映射到解码表面上dpSrcFrame上" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rF8hqc-gvaHFeQEZxFA9-8" target="rF8hqc-gvaHFeQEZxFA9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-8" value="定义一个decodeStatus" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rF8hqc-gvaHFeQEZxFA9-10" target="rF8hqc-gvaHFeQEZxFA9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-10" value="获取当前图片解码的decodeStatus" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rF8hqc-gvaHFeQEZxFA9-12" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
